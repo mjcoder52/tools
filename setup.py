@@ -45,22 +45,22 @@ setup(
     packages=find_packages(),
     python_requires=">=3.5", # The latest version installed by default on Ubuntu 16.04 is 3.5.2
     install_requires=[
-        "beautifulsoup4==4.6.0",
-        "cssselect==1.0.1",
-        "ftfy==5.3.0",
-        "gitpython==2.1.5",
-        "lxml==4.2.3",
-        "psutil==5.5.0",
-        "pyhyphen==3.0.1",
+        "beautifulsoup4==4.6.0", # Good
+        "cssselect==1.0.1", # Good
+        "ftfy==5.3.0", # Good
+        "gitpython==2.1.5", # Good
+        "lxml==4.2.3", # Good
+        "psutil==5.5.0", # Good
+        "pyhyphen==3.0.1", # Good
         # "pyopenssl>=19.0.0",  # Required to allows the `requests` package to use https on Mac OSX, but segfaults when installed on Ubuntu
-        "python-magic==0.4.13",
-        "regex==2017.7.26",
-        "requests>=2.20.0",
-        "roman==2.0.0",
-        "smartypants==2.0.0",
-        "titlecase==0.11.0",
-        "termcolor==1.1.0",
-        "terminaltables==3.1.0"
+        "python-magic==0.4.13", # Good
+        "regex==2017.7.26", # Good
+        "requests>=2.20.0", # Good
+        "roman==2.0.0", # Good
+        "smartypants==2.0.0", # Good
+        "titlecase==0.11.0", # Good
+        "termcolor==1.1.0", # Good
+        "terminaltables==3.1.0" # Good
     ],
     package_data={
         "se": ["data/*", "data/templates/*", "data/templates/META-INF/*", "completions/*", "completions/*/*"]
